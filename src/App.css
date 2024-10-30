@@ -1,0 +1,19 @@
+/* App.css */
+
+/* Apply a consistent background color to the entire app */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for each page */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  

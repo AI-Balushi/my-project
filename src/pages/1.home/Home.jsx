@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-600 min-h-screen text-white">
-      <header className="text-center p-10">
+    <div className="bg-gray-100 min-h-screen text-gray-800">
+      <header className="text-center py-10">
         <h1 className="text-4xl font-bold">Welcome to Abdul Waheed's Professional Portfolio</h1>
         <p className="mt-4 text-lg max-w-2xl mx-auto">
           I'm Abdul Waheed, a passionate web developer, tech enthusiast, and dedicated problem-solver specializing in TypeScript, Node.js, and modern front-end frameworks. Join me on a journey to discover technology solutions that make a difference.
@@ -32,9 +32,9 @@ const Home = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="text-center py-10 bg-gradient-to-r from-blue-600 to-purple-500">
-        <h2 className="text-3xl font-semibold">Let’s Build Something Great Together</h2>
-        <p className="mt-4 max-w-2xl mx-auto">
+      <section className="text-center py-10 bg-gray-200">
+        <h2 className="text-3xl font-semibold text-gray-800">Let’s Build Something Great Together</h2>
+        <p className="mt-4 max-w-2xl mx-auto text-gray-700">
           Ready to take your business to the next level? Contact me to discuss your project needs and discover how I can help bring your vision to life.
         </p>
         <Link to="/contact">
